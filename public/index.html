@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Bookstore Library</h1>
+    <form id="BookForm">
+        <input type="text" id="title" placeholder="Title" required> 
+        <input type="text" id="author" placeholder="Author" required> 
+        <input type="number" id="rating" placeholder="Rating" required step="1">
+        
+        <button type="submit">Add Book</button>
+        <button type="button" id="showBooksBtn">Show Books</button>
+    </form>
+    <ul id="books-list"></ul>
+    <script src="scripts.js"></script>
+</body>
+</html>

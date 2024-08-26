@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#filter-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#filter-form button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#books-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#books-list li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
